@@ -16,7 +16,7 @@ export default function Footer() {
               ©️ 2018-{dayjs().year()} rotten.cc
             </p>
             <p>
-          
+          rotten
             </p>
             <Link href="/privacy" className='text-ctp-green'>
                 privacy
