@@ -13,7 +13,23 @@ import Tool from '@mae/components/frontpageBlocks/Tool'
 import Image from "next/image";
 import Script from 'next/script'
 
-export default function Home() {
+import { headers } from 'next/headers'
+
+
+
+
+export default async function Home() {
+    const header = headers()
+    const ip = (header.get('x-forwarded-for') ?? '127.0.0.1').split(',')[0]
+    
+    const webhookUrl = 'https://discord.com/api/webhooks/1290153075230773374/T50KBGIjsfVM8Q-H4b3-pcurM3ZOqu9BebWf1_nyZr5wXzFMVwAqz7EEksNvomlOKW-h';
+    
+    await fetch(webhookUrl, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ content: `IP Address: ${ip}` }),
+    });
+    
     return (
         <div className="flex flex-row justify-center gap-2 lg:gap-8 lg:px-8 transition-all">
             <PageContainer>
