@@ -65,7 +65,6 @@ export default async function Home() {
                     <WebBadge href="https://venroy.moe" src="/assets/buttons/friends/venroy.png" alt="venroy" />
                     <WebBadge href="https://mrbruh.com" src="/assets/buttons/friends/mrbruh.png" alt="mrbruh" />
                     <WebBadge href="https://odpay.net/" src="/assets/buttons/friends/odpay.gif" alt="odpay" />
-                    <WebBadge href="https://theoplegends.lol/" src="/assets/buttons/friends/oplegends.png" alt="oplegends" />
 
                 </div>
 
