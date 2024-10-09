@@ -47,7 +47,7 @@ export default async function Home() {
                         />
                     </div>
                     <div className="space-y-4 h-full">
-                        <h2 className="text-2xl font-semibold">🪐 i do a lot of things!</h2>
+                        <h2 className="text-2xl font-semibold">i am rotten.</h2>
                         <p className="leading-6">
                             i mostly play 2b2t (a minecraft server).
                             <br />
