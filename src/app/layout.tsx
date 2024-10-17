@@ -39,6 +39,7 @@ export default async function RootLayout({
   return (
     <html lang="en">
       <head>
+      <script defer src="https://umami.rotten.cc/script.js" data-website-id="e4e74ac9-1d1a-453a-af27-3c18d904641e"></script>
       </head>
       <body className={`${interVariable.className} ${jbm.variable} bg-ctp-crust text-gray-200`}>
         <LayoutWrappers>
