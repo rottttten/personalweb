@@ -4,7 +4,7 @@ import Navbar from '@mae/components/layout/Navbar';
 import Footer from '@mae/components/layout/Footer';
 import LayoutWrappers from './layoutWrappers';
 import { ComponentChildren } from '@mae/misc/types';
-import PlausibleProvider from 'next-plausible';
+
 import 'react-tooltip/dist/react-tooltip.css';
 import '../css/globals.css';
 import 'boxicons/css/boxicons.min.css';
@@ -39,13 +39,13 @@ export default async function RootLayout({
   return (
     <html lang="en">
       <head>
+      <script defer data-domain="rotten.cc" src="https://plausible.io/js/script.file-downloads.outbound-links.pageview-props.js"></script>
+<script>window.plausible = window.plausible || function() { (window.plausible.q = window.plausible.q || []).push(arguments) }</script>
       </head>
       <body className={`${interVariable.className} ${jbm.variable} bg-ctp-crust text-gray-200`}>
-      <PlausibleProvider domain="rotten.cc">
         <LayoutWrappers>
           {children}
         </LayoutWrappers>
-        </PlausibleProvider>
       </body>
     </html>
   )
