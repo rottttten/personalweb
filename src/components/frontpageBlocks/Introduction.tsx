@@ -7,8 +7,6 @@ import Chip from '../Chip';
 
 import anime from 'animejs/lib/anime.es';
 
-
-
 export default function Introduction() {
   useLayoutEffect(() => {
     anime({
@@ -57,11 +55,10 @@ export default function Introduction() {
         hi! i'm rotten
       </h1>
       
-      
       <div className='flex justify-center gap-2 mt-4' data-anim="tags">
-        <Chip text='🇰🇵 en-kr' hideDot={true} className='bg-ctp-surface0 text-ctp-text select-none shadow-xl'></Chip>
+        <Chip text='he • him' hideDot={true} className='bg-ctp-surface0 text-ctp-text select-none shadow-xl'></Chip>
+        <Chip text='🇺🇸 en-us' hideDot={true} className='bg-ctp-surface0 text-ctp-text select-none shadow-xl'></Chip>
       </div>
     </div>
   )
 }
-

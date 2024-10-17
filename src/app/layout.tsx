@@ -39,8 +39,6 @@ export default async function RootLayout({
   return (
     <html lang="en">
       <head>
-      <script defer data-domain="rotten.cc" src="https://plausible.io/js/script.file-downloads.outbound-links.pageview-props.js"></script>
-<script>window.plausible = window.plausible || function() { (window.plausible.q = window.plausible.q || []).push(arguments) }</script>
       </head>
       <body className={`${interVariable.className} ${jbm.variable} bg-ctp-crust text-gray-200`}>
         <LayoutWrappers>
