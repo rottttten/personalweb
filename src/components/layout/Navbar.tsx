@@ -106,7 +106,7 @@ export default function Navbar({version}: {version: string}) {
 function LogoText() {
   return (
     <Link href='/' className='font-bold text-5xl tracking-tighter text-white' data-anim="logo">
-      rotte
+      rotten
     </Link>
   )
 }
