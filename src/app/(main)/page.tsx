@@ -17,6 +17,12 @@ import { headers } from 'next/headers'
 
 
 
+import { headers } from 'next/headers'
+
+
+
+
+export default async function Home() {
 export default async function Home() {
     return (
         <div className="flex flex-row justify-center gap-2 lg:gap-8 lg:px-8 transition-all">
