@@ -16,7 +16,7 @@ export default function Donate() {
       <PageHeader title="‼️ privacy notice"></PageHeader>
       <p>
         privacy respecting analytics are collected from this website to a self hosted&nbsp;
-        <a href="http://plausible.com">Plausible</a> instance, purely so i can just see
+        <a href="http://umami.is">Umami</a> instance, purely so i can just see
         how active the site is
       </p>
     </PageContainer>

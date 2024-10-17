@@ -94,9 +94,9 @@ export default function Navbar({version}: {version: string}) {
           </div>
         </div>
         <div className={`lg:ml-auto lg:flex lg:flex-row flex-col lg:justify-end flex-wrap gap-2 lg:w-8/12 anim-navbar-tray ${(menuVisible) ? 'flex' : 'hidden'}`}>
-          <Button text="🏠 Home" href="/" className='w-full'/>
-          <Button text="📱 Contact" href="/contact" className='w-full'/>
-
+          <Button text="home" href="/" className='w-full'/>
+          <Button text="contact" href="/contact" className='w-full'/>
+          <Button text="privacy" href="/privacy" className='w-full'/>
         </div>
       </div>
     </nav>
