@@ -12,12 +12,8 @@ import WebBadge from "@mae/components/WebBadge";
 import Tool from '@mae/components/frontpageBlocks/Tool'
 import Image from "next/image";
 import Script from 'next/script'
-import { headers } from 'next/headers'
 
-
-
-
-export default async function Home() {
+export default function Home() {
     return (
         <div className="flex flex-row justify-center gap-2 lg:gap-8 lg:px-8 transition-all">
             <PageContainer>
@@ -46,7 +42,7 @@ export default async function Home() {
                         />
                     </div>
                     <div className="space-y-4 h-full">
-                        <h2 className="text-2xl font-semibold">i am rotten</h2>
+                        <h2 className="text-2xl font-semibold">🪐 i do a lot of things!</h2>
                         <p className="leading-6">
                             i mostly play 2b2t (a minecraft server).
                             <br />
@@ -64,7 +60,7 @@ export default async function Home() {
                     <WebBadge href="https://venroy.moe" src="/assets/buttons/friends/venroy.png" alt="venroy" />
                     <WebBadge href="https://mrbruh.com" src="/assets/buttons/friends/mrbruh.png" alt="mrbruh" />
                     <WebBadge href="https://odpay.net/" src="/assets/buttons/friends/odpay.gif" alt="odpay" />
-                            
+                    <WebBadge href="https://theoplegends.lol/" src="/assets/buttons/friends/oplegends.png" alt="oplegends" />
 
                 </div>
 
