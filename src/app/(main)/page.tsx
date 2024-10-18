@@ -61,7 +61,7 @@ export default function Home() {
                     <WebBadge href="https://mrbruh.com" src="/assets/buttons/friends/mrbruh.png" alt="mrbruh" />
                     <WebBadge href="https://odpay.net/" src="/assets/buttons/friends/odpay.gif" alt="odpay" />
                     <WebBadge href="https://mullvad.net/" src="/assets/buttons/mullvad.png" alt="mullvad" />
-                    <WebBadge src='/assets/buttons/lowtiergod.png' LTG/>
+                    <WebBadge src='/assets/buttons/lowtiergod.png' alt='LTG'/>
                     <WebBadge src='https://damcraft.de/88x31/jammin.webp'/>        
 
                 </div>
